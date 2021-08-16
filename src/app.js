@@ -29,11 +29,5 @@ window.onload = function() {
   let randomWhen = when[randomWhenPosition];
 
   document.getElementById("excuse").innerHTML =
-    randomWho.toString() +
-    " " +
-    randomAction +
-    " " +
-    randomWhat +
-    " " +
-    randomWhen;
+    randomWho + " " + randomAction + " " + randomWhat + " " + randomWhen;
 };
